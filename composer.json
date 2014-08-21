@@ -1,20 +1,20 @@
 {
-    "name": "panique/php-mvc",
+    "name": "grafuls/boncugu",
     "type": "project",
-    "description": "A simple PHP MVC boilerplate",
-    "keywords": ["mvc", "skeleton", "boilerplate", "naked", "barebone", "application"],
-    "homepage": "https://github.com/panique/php-mvc",
+    "description": "A simple PHP MVC Flickr API integration",
+    "keywords": ["mvc", "php", "flickr", "application"],
+    "homepage": "https://github.com/grafuls/boncugu",
     "license": "MIT",
     "authors": [
         {
-            "name": "Panique",
-            "homepage": "http://careers.stackoverflow.com/panique",
+            "name": "Gonzalo Rafuls",
+            "homepage": "http://pandevs.com/boncugu",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/panique/php-mvc/issues",
-        "source": "https://github.com/panique/php-mvc"
+        "issues": "https://github.com/grafuls/boncugu/issues",
+        "source": "https://github.com/grafuls/boncugu"
     },
     "require": {
         "php": ">=5.3.0"
