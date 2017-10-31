@@ -8,3 +8,4 @@ application/views/songs/
 pac13775744.html
 public/img/demo-image.png
 vendor/
+.env
