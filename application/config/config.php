@@ -24,8 +24,8 @@ define('URL', "boncugu.herokuapp.com");
  * Configuration for: Database
  * This is the place where you define your database credentials, database type etc.
  */
-define('DB_TYPE', 'mysql');
-define("DB_HOST", {HOST_URL});
-define('DB_NAME', {DB_NAME});
-define("DB_USER", {USERNAME});
-define("DB_PASS", {PASS});
+define("DB_TYPE", "mysql");
+define("DB_HOST", getenv("DB_HOST_URL"));
+define("DB_NAME", getenv("DB_NAME"));
+define("DB_USER", getenv("DB_USERNAME"));
+define("DB_PASS", getenv("DB_PASS"));
